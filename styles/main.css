@@ -1,0 +1,48 @@
+html {
+    background-color: grey;
+    background-image: url("/images/background.png");
+    background-attachment: fixed;
+}
+
+header {
+    background-color: wheat;
+    color:black;
+    clear: both;
+    text-align: center;
+    font-size: 80%
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: white;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 400px;
+    width: 100%;
+    margin:5px;
+}
+
+div {
+    clear:both
+}
+
+footer p {
+    background-color: wheat;
+    color:black;
+    clear: both;
+    text-align: center;
+    font-size: 80%;
+}
+
+.leftFloat {
+    float:left;
+}
+
+.rightFloat {
+    float:right;
+}

@@ -1,6 +1,6 @@
 html {
-    background-color: grey;
-    background-image: url("images/background.png");
+    background-color: gray;
+    background-image: url(../images/background.png);
     background-attachment: fixed;
 }
 
@@ -19,6 +19,10 @@ body {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+}
+
+body p {
+    overflow-wrap: break-word;
 }
 
 img {
